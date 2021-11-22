@@ -1,0 +1,34 @@
+a {
+  font-size: 16px;
+  font-weight: 300;
+  color: #fff;
+  text-decoration: none;
+  margin-right: 1rem;
+  transition: all 0.3s;
+}
+a:hover,
+#nav-links-mobile a:hover {
+  color: orangered;
+}
+a.btn {
+  border-radius: 5px;
+  padding: 5px 8px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+a.btn-dark {
+  background: transparent;
+  border: 2px solid #fff;
+}
+a.btn-light {
+  background: orangered;
+  border: 2px solid transparent;
+  color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+  a.btn {
+    display: inline;
+  }
+}
